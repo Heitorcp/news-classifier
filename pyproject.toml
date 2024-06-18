@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "trabalho2"
+version = "0.1.0"
+description = "Trabalho 02 - SME0852 - Pratica em Ciencia de Dados"
+authors = ["Andre Dylan", "Heitor Carvalho", "Helber Moraes"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datasets = "^2.20.0"
+transformers = "^4.41.2"
+evaluate = "^0.4.2"
+sentencepiece = "^0.2.0"
+accelerate = "^0.31.0"
+ipykernel = "^6.29.4"
+protobuf = "^5.27.1"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
